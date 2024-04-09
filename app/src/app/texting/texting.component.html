@@ -1,0 +1,33 @@
+
+
+<div class="parent" >
+    <header class="showcase">
+      <div class="showcase-content">
+        <div class="showcase-top">
+          <h1 style="margin-left: 30px;">Send A Message</h1>
+          <br>
+        </div>
+        <div class="formm">
+          <form (ngSubmit)="onSubmit()">
+           
+            <div class="info">
+              <textarea class="email" type="email" name="message" style="height: 200PX;"  [(ngModel)]="messageObj.msg">
+              </textarea>
+            </div>
+            <div class="btn">
+              <button class="btn-primary" type="submit" >submit</button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </header>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
